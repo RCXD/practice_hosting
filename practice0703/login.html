@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>회원가입</title>
+</head>
+
+<body>
+  <form action="">
+    <table border="1">
+      <tr>
+        <td>
+          <label>실명 인증된 아이디로 가입
+            <input type="checkbox">
+          </label>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <table border="1">
+            <tr>
+              <td><input name="fullname" type="text" size=40 placeholder="이름"></td>
+            </tr>
+            <tr>
+              <td><input name="password" type="password" size=40 placeholder="비밀번호"></td>
+            </tr>
+            <tr>
+              <td><input type="email" size=40 placeholder="[선택] 이메일주소 (비밀번호 찾기 등 본인 확인용)"></td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <table border="1">
+            <tr>
+              <td><input type="text" size=40 placeholder="이름"></td>
+            </tr>
+            <tr>
+              <td><input name="dob" type="text" size="40" placeholder="생년월일 8자리"></td>
+            </tr>
+            <tr>
+              <td>
+                <select name="telecom">
+                  <option value="skt">SKT</option>
+                  <option value="kt">KT</option>
+                  <option value="lgu">LG U+</option>
+                  <option value="skt2">SKT 알뜰폰</option>
+                  <option value="kt2">KT 알뜰폰</option>
+                  <option value="lgu2">LG U+ 알뜰폰</option>
+                </select>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <table border="1">
+            <tr>
+              <td>
+                <label>
+                  <input name="gender" type="radio" value="male">
+                  남자
+                </label>
+              </td>
+              <td>
+                <label>
+                  <input name="gender" type="radio" value="female"><label for="gender">
+                    여자
+                  </label>
+              </td>
+              <td>
+                <label>
+                  <input name="from" type="radio" value="korean" selected>
+                  내국인
+                </label>
+              </td>
+              <td>
+                <label>
+                  <input name="from" type="radio" value="foreign">
+                  외국인
+                </label>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <table border="1">
+            <tr>
+              <td>
+                <input name="cellphone" type="tel" size=40 placeholder="휴대전화번호">
+              </td>
+            </tr>
+          </table>
+        </td>
+      <tr>
+        <td>
+          <table border="1">
+            <tr>
+              <td>
+                <label>
+                  <input name="agreement" type="radio">
+                  <em>[필수]</em><strong> 인증 약관 전체동의</strong>
+                </label>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+        <input type="submit" value="인증요청">
+        </td>
+      </tr>
+    </table>
+  </form>
+</body>
+
+</html>
